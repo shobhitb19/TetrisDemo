@@ -1,4 +1,3 @@
-
 # Phase 1 – Basic Tetris Logic (Text-Based)
 
 ## Goal
