@@ -1,15 +1,28 @@
-# Phase 3
+
+# Phase 3 – Web-Based GUI (Single Page App)
 
 ## Goal
+Convert the Tetris game into a browser-based visual experience.
 
-[Update this section with the goal of Phase 3.]
+## Technical Constraints
+- Single HTML file
+- Embedded CSS and JavaScript
+- No external libraries
+- Runs locally in a browser
 
-## Deliverables
+## UI Requirements
+- Visible grid layout
+- Distinct colours for different blocks
+- Real-time falling animation
+- Keyboard controls clearly explained
+- Start / Restart game option
 
-[Outline the deliverables for Phase 3.] 
+## UX Principles
+- Clean, professional appearance
+- No clutter
+- Immediate feedback on actions
 
-## Checklist
-
-- [ ] Task 1 
-- [ ] Task 2 
-- [ ] Task 3 
+## Success Criteria
+- Game runs smoothly in browser
+- Controls are intuitive
+- Demo-ready for non-technical audiences

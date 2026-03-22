@@ -1,15 +1,23 @@
-# Phase 5
+
+# Phase 5 – Light Personalisation
 
 ## Goal
+Add subtle personality without undermining professionalism.
 
-[Update this section with the goal of Phase 5.]
+## Enhancements
+- Friendly but neutral messages
+- Encouraging feedback
+- Clear success and failure states
 
-## Deliverables
+## Tone Guidelines
+- Workplace-safe
+- Inclusive
+- Subtle NZ flavour (optional)
 
-[Outline the deliverables for Phase 5.]
+## Non-Goals
+- No slang-heavy language
+- No jokes that exclude or distract
 
-## Checklist
-
-- [ ] Task 1
-- [ ] Task 2
-- [ ] Task 3
+## Success Criteria
+- Feels human
+- Still enterprise-appropriate
