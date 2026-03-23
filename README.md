@@ -1,80 +1,63 @@
-# Tetris Demo (Phase 1)
+# Tetris Demo – Web UI Edition
 
-This repository contains a text-based Tetris prototype that demonstrates the core game loop in a simple, readable way.
+This repository contains a web-based, accessible, and demo-friendly version of Tetris. Playable directly in your browser, it is designed for everyone—no installation or setup required.
 
-## What this version includes
+## Features
 
-- 10x20 game grid
-- Random spawning of standard tetromino shapes (`I`, `O`, `T`, `L`, `J`, `S`, `Z`)
-- Piece movement (left, right, and manual down)
-- Automatic one-step fall each turn
-- Piece locking when it can no longer fall
-- Game-over detection when a new piece cannot spawn
-
-## What this version intentionally does not include
-
-- Rotation
-- Line clearing
-- Scoring
-- Graphical interface
+- Play Tetris in any modern web browser (Chrome, Edge, Firefox, Safari)
+- Smooth, colourful board with distinct Tetromino shapes
+- Keyboard controls (arrows or WASD)
+- Score and level display
+- Friendly, clear messages for line clears and game over
+- Accessibility: keyboard-only, screen reader support, colour-friendly
+- Easy to start: run one command, get a browser link
+- Works in GitHub Codespaces and on your own computer
 
 ## Requirements
 
-- Python 3.9+
+- Python 3.9+ (for local run)
+- No browser plugins or extra installs needed
 
-## Run the game
+## How to Run
+
+In Codespaces or locally:
 
 ```bash
-python3 phase1_tetris.py
+python3 app.py
 ```
+
+You’ll see a link to open the game in your browser.
 
 ## Controls
 
-- `Enter`: continue (piece falls one step)
-- `a`: move piece left (if possible)
-- `d`: move piece right (if possible)
-- `s`: move piece down one extra step (if possible)
-- `q`: quit game
+- Arrow keys or WASD: move and rotate Tetrominoes
+- Space or Down: drop faster
+- R: restart game
 
-## Sample gameplay
+All controls and instructions are visible on the game screen.
 
-```text
-$ python3 phase1_tetris.py
-Welcome to Phase 1 Tetris (text mode)!
+## Accessibility & Inclusion
 
-============================
-Current piece: T
-Commands: [Enter]=fall, a=left, d=right, s=down, q=quit
-. = empty, @ = falling piece, # = stacked block
-============================
-. . . . @ . . . . .
-. . . @ @ @ . . . .
-. . . . . . . . . .
-... (rows omitted) ...
+- Fully playable with keyboard only
+- High-contrast, accessible colour palette
+- Screen reader-friendly labels
+- Friendly, inclusive language throughout
 
-Next move: d
+## Demo & Sharing
 
-============================
-Current piece: T
-...piece shifts right and falls one row...
+- Share the browser link to demo the game instantly
+- Safe for work, inclusive, and easy to show to anyone
 
-Next move:
-...piece falls one row...
+## Project Files
 
-Next move: s
-...piece nudges down and then falls again...
+- `app.py`: Web server for the game
+- `tetris.html`: Main game UI (HTML/JS/CSS)
+- `.github/instructions/`: Detailed phase-by-phase requirements and design
 
-Next move: q
+## Success Criteria
 
-Game ended by player.
-```
-
-## Grid symbols
-
-- `.` empty cell
-- `@` currently falling piece
-- `#` locked/stacked blocks
-
-## Project file
-
-- `phase1_tetris.py`: full Phase 1 text-mode implementation
+- Game is playable and enjoyable in any browser
+- Controls and rules are clear and visible
+- Accessibility features are present and effective
+- Game is easy to start and share
+- Players trust the system and feel included

@@ -1,4 +1,4 @@
-# Phase 1 & 2 – Unified Instructions
+# Initial PoC – Instructions and Specifications
 
 ## Goal
 Create a simple, playable version of Tetris that demonstrates the core mechanics and essential rules, making the game feel real and trustworthy.

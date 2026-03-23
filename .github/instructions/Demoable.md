@@ -1,5 +1,5 @@
 
-# Phase 3–5 – Web UI & User Experience
+# Let's make it Demo Ready – Web UI & User Experience
 
 ## Goal
 Deliver a smooth, colourful, and accessible Tetris game playable in any modern web browser, with a focus on friendliness, inclusion, and trust.
